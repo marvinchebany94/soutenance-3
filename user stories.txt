@@ -1,0 +1,108 @@
+l'utilisateur souhaite s'inscrire sur le site :
+
+-etant donné que je n'ai pas de compte je dois en créer un 
+-Lorsque j'ai rempli le formulaire il y a plusieurs situations :
+
+	critéres d'acceptation :
+	-Remplir toutes les cases obligatoires
+	-s'inscrire avec un email non utilisé
+	-ne pas avoir le même nom et prénom qu'un autre utilisateur
+	-rentrer 2 fois le même mot de passe
+	-mot de passe de 5 caractères minimum
+	-la photo est non obligatoire mais doit être au format jpg et ne pas dépasser 2mo
+	
+-lorsque le formulaire est valide je reçois un email afin de valider mon emlail et mon compte. 
+-alors je clique sur le lien de l'email et mon compte est activé, je peux me connexter
+
+
+l'utilisateur souhaite se connecter sur le site:
+
+-etant donné que j'ai un compte valide :
+-lorsque je vais sur la page de connexion j'entre mon email et mon mot de passe
+-critères d'acceptation : 
+	-compte valide sinon le site renvoie sur la page de création de compte
+	-remplir les 2 cases du formulaire
+	-email valide et mot de passe associé au mail valide
+	
+-alors j'arrive sur la page d'acceuil
+
+ 
+-l'utilisateur souhaite garder sa connexion sans avoir à se connecter à chaque fois :
+
+	-l'utilisateur se rend sur la page de connexion
+	-il entre son email et son mot de passe
+	-il coche la case "se souvenir de moi"
+	(même critères d'acceptation que pour la US précédente)
+	-Lorsqu'il se connecte il arrive sur la page d'acceuil
+	-Alors un cookie se crée afin de maintenir la session active même quand il quittera le site
+	
+
+L'utilisateur souhaite ajouter un contact :
+
+-l'utilisateur se rend sur la page chat
+-lorsque l'utilisateur écrit dans la barre de recherche, des résultats apparaissent 
+-critéres d'acceptation :
+	-L'utilisateur recherché doit exister dans la base de donnée 
+-L'utilisateur a trouvé la personne recherché, un bouton est à côté de son prénom
+-lorsque je clique dessus l'utilisateur est ajouté à ma liste de contact
+
+
+L'utilisateur souhaite supprimer un contact :
+-L'utilisateur se rend sur la page de chat
+-La liste de ses contacts apparaît
+-à côté de chaque contact se trouve une croix 
+-Lorsqu'il clique dessus un message apparaît pour lui demander s'il est sûr de vouloir faire cela
+-alors le contact est supprimé de sa liste de contact
+
+-critères d'acceptation :
+	-valider l'opération en cliquant sur "oui"
+
+
+L'utilisateur souhaite retrouver une conversation avec un contact et envoyer un message:
+
+-l'utilisateur se rend sur la page de chat
+-la liste de ses contacts apparait 
+-lorsque l'utilisateur clique sur un de ses contacts la conversation avec celui-ci apparaît
+-alors l'utilisateur peut retrouver l'historique des messages, ainsi que l'horodatage, et peut envoyer des messages à celui-ci
+
+L'utilisateur souhaite accéder à son calendrier et voir ses tâches/rendez-vous :
+
+-l'utilisateur se rend sur la page calendrier
+-il retrouve un calendrier du mois
+-lorsqu'il clique sur une date des informations apparaissent
+-alors il est capable de voir l'heure du rendez-vous, le bénévole/l'eleve avec qui il a rendez-vous, la description de la tâche
+
+Le bénévole veut ajouter une tâche ou un rendez-vous à un élève :
+
+-le bénévole se rend sur la page "gestion des tâches"
+-il choisit tâche ou rendez-vous
+
+-pour un rendez-vous le bénévole met une date et une heure
+-prénom nom de l'élève
+-description du rendez-vous
+-critères d'acceptation :
+	-avoir l'élève dans ses contacts
+	-l'élève doit être libre à cette heure
+	-La date ne peut pas être une date déjà passée
+
+-pour une tâche
+-le bénévole met une date
+-le nom de l'élève ciblé
+-description de la tâche
+-critères d'acceptation :
+	-avoir l'élève dans ses contacts
+
+-lorsque la tâche ou le rendez-vous est enregistré, il apparaît sur le calendrier de l'élève et du bénévole.
+
+L'élève veut créer une tâche :
+-l'élève se rend sur la page "gestion de tâches"
+-Il crée un intitulé
+-Une date 
+-Une déscription
+
+-critères d'acceptation :
+	-date valide 
+	-remplir tous les champs
+	-intitulé unique
+
+
