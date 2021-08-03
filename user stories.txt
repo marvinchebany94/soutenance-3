@@ -6,13 +6,14 @@ l'utilisateur souhaite s'inscrire sur le site :
 	critéres d'acceptation :
 	-Remplir toutes les cases obligatoires
 	-s'inscrire avec un email non utilisé
+	-avoir un email valide
 	-ne pas avoir le même nom et prénom qu'un autre utilisateur
 	-rentrer 2 fois le même mot de passe
 	-mot de passe de 5 caractères minimum
 	-la photo est non obligatoire mais doit être au format jpg et ne pas dépasser 2mo
 	
--lorsque le formulaire est valide je reçois un email afin de valider mon emlail et mon compte. 
--alors je clique sur le lien de l'email et mon compte est activé, je peux me connexter
+-lorsque le formulaire est valide je reçois un email afin de valider mon email et mon compte. 
+-alors je clique sur le lien de l'email et mon compte est activé, je peux me connecter
 
 
 l'utilisateur souhaite se connecter sur le site:
@@ -43,7 +44,7 @@ L'utilisateur souhaite ajouter un contact :
 -lorsque l'utilisateur écrit dans la barre de recherche, des résultats apparaissent 
 -critéres d'acceptation :
 	-L'utilisateur recherché doit exister dans la base de donnée 
--L'utilisateur a trouvé la personne recherché, un bouton est à côté de son prénom
+-L'utilisateur a trouvé la personne recherché, un bouton est à côté de son prénom et nom
 -lorsque je clique dessus l'utilisateur est ajouté à ma liste de contact
 
 
@@ -51,7 +52,7 @@ L'utilisateur souhaite supprimer un contact :
 -L'utilisateur se rend sur la page de chat
 -La liste de ses contacts apparaît
 -à côté de chaque contact se trouve une croix 
--Lorsqu'il clique dessus un message apparaît pour lui demander s'il est sûr de vouloir faire cela
+-Lorsqu'il clique dessus un message apparaît pour lui demander s'il est sûr de vouloir supprimer le contact
 -alors le contact est supprimé de sa liste de contact
 
 -critères d'acceptation :
@@ -74,7 +75,7 @@ L'utilisateur souhaite accéder à son calendrier et voir ses tâches/rendez-vou
 
 Le bénévole veut ajouter une tâche ou un rendez-vous à un élève :
 
--le bénévole se rend sur la page "gestion des tâches"
+-le bénévole se rend sur la page "gestionraire des tâches"
 -il choisit tâche ou rendez-vous
 
 -pour un rendez-vous le bénévole met une date et une heure
@@ -87,7 +88,7 @@ Le bénévole veut ajouter une tâche ou un rendez-vous à un élève :
 
 -pour une tâche
 -le bénévole met une date
--le nom de l'élève ciblé
+-le nom et prénom de l'élève ciblé
 -description de la tâche
 -critères d'acceptation :
 	-avoir l'élève dans ses contacts
@@ -104,5 +105,38 @@ L'élève veut créer une tâche :
 	-date valide 
 	-remplir tous les champs
 	-intitulé unique
+
+
+Le bénévole veut modifier ou supprimer une tâche/ un rendez vous :
+
+pour modifier une tâche de son éléve:
+-le bénévole se rend sur la page de calendrier
+-il clique sur une date
+-apparaît alors la liste de toutes les tâches de ses élèves
+-il clique sur une tâche
+-il clique sur le bouton modifier
+-il peut ainsi modifier l'intitulé, la date et la description de la tâche
+
+critères d'acceptation :
+	-date valide
+	-tous les champs remplis
+
+Le bénévole veut modifier la progression de la tâche de son élève :
+
+-le benevole se rend sur la page calendrier
+-il clique sur une date
+-la liste des tâches apparaît pour chacun de ses élèves
+-il clique sur une tâche
+-il modifie la progression de celle-ci en lui assignant un pourcentage
+
+critères d'acceptation :
+	-le pourcentage ne peut pas être inférieur à l'ancien
+	-maximum 100%
+-alors le pourcentage de la tâche est changée et visible par l'élève comme le bénévole dans le calendrier
+
+(faire en sorte que l'eleve et le benevole puisse voir l'avancé d'un projet, pouvoir faire en sorte que le projet soit validé par l'eleve ou le benevole, créer 2 bonhommes dans les 
+cas d'utilisation qui représentent un eleve et un benevole)
+
+
 
 

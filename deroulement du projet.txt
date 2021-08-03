@@ -1,0 +1,8 @@
+début du projet 24/07/21:
+
+1. premiere partie du projet :
+	
+	-Faire un diagramme de cas d'usage pour chaque fonctionnalités majeures pour chaque page (connexion, chat, calendrier, gestionnaire de tâches, tableau de bord)
+
+	-J'utiliserai edrawmax pour faire le diagramme
+		
