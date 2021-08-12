@@ -21,7 +21,7 @@ le béénvole souhaite se connecter sur le site:
 
 -etant donné que j'ai un compte valide :
 -lorsque je vais sur la page de connexion j'entre mon email et mon mot de passe
--critères d'acceptation : 
+critères d'acceptation : 
 	-compte valide sinon le site renvoie sur la page de création de compte
 	-remplir les 2 cases du formulaire
 	-email valide et mot de passe associé au mail valide
@@ -53,7 +53,7 @@ Le bénévole souhaite ajouter un contact :
 -Le bénévole a trouvé la personne recherchée, un bouton est à côté de son prénom et nom
 -lorsque qu'il clique dessus l'utilisateur est ajouté à sa liste de contact
 
--critéres d'acceptation :
+critéres d'acceptation :
 	-L'utilisateur recherché doit exister dans la base de donnée 
 
 
@@ -65,7 +65,7 @@ Le bénévole souhaite supprimer un contact :
 -le bénévole clique sur oui
 -alors le contact est supprimé de sa liste de contact
 
--critères d'acceptation :
+critères d'acceptation :
 	-valider l'opération en cliquant sur "oui"
 
 
@@ -76,6 +76,15 @@ Le bénévole souhaite retrouver une conversation avec un contact et envoyer un 
 -la liste de ses contacts apparait 
 -lorsque l'utilisateur clique sur un de ses contacts la conversation avec celui-ci apparaît
 -alors l'utilisateur peut retrouver l'historique des messages, ainsi que l'horodatage, et peut envoyer des messages à celui-ci
+
+Le bénévole souhaite voir le nombre de messages qu'il n'a pas lu :
+
+-le bénévole se connecte au site
+-Il arrive sur la page d'acceuil
+-Sur le lien qui méne au chat il peut voir un chiffre entre parenthése qui correspond au nombre de messages non lus
+
+critères d'acceptation :
+	-Avoir au minimum 1 message sinon aucun chiffre ne sera affiché
 
 
 
