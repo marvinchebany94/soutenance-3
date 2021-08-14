@@ -1,4 +1,5 @@
-l'utilisateur souhaite s'inscrire sur le site :
+Partie sur la connexion :
+le bénévole/l'élève souhaite s'inscrire sur le site :
 
 -etant donné que je n'ai pas de compte je dois en créer un 
 -Lorsque j'ai rempli le formulaire il y a plusieurs situations :
@@ -16,126 +17,85 @@ l'utilisateur souhaite s'inscrire sur le site :
 -alors je clique sur le lien de l'email et mon compte est activé, je peux me connecter
 
 
-l'utilisateur souhaite se connecter sur le site:
+le béénvole/l'élève souhaite se connecter sur le site:
 
 -etant donné que j'ai un compte valide :
 -lorsque je vais sur la page de connexion j'entre mon email et mon mot de passe
--critères d'acceptation : 
+critères d'acceptation : 
 	-compte valide sinon le site renvoie sur la page de création de compte
 	-remplir les 2 cases du formulaire
 	-email valide et mot de passe associé au mail valide
 	
 -alors j'arrive sur la page d'acceuil
 
- 
--l'utilisateur souhaite garder sa connexion sans avoir à se connecter à chaque fois :
 
-	-l'utilisateur se rend sur la page de connexion
+-le bénévole/l'élève souhaite garder sa connexion sans avoir à se connecter à chaque fois :
+
+	-le bénévole/l'élève se rend sur la page de connexion
 	-il entre son email et son mot de passe
 	-il coche la case "se souvenir de moi"
 	(même critères d'acceptation que pour la US précédente)
 	-Lorsqu'il se connecte il arrive sur la page d'acceuil
-	-Alors un cookie se crée afin de maintenir la session active même quand il quittera le site
-	
+	-Alors la session reste active même quand il quittera le site
 
-L'utilisateur souhaite ajouter un contact :
 
--l'utilisateur se rend sur la page chat
--lorsque l'utilisateur écrit dans la barre de recherche, des résultats apparaissent 
--critéres d'acceptation :
+Partie sur le chat:
+
+Le bénévole/l'élève souhaite voir sa liste de contact :
+	-Il clique sur le lien chat
+	-Il arrive alors sur sa liste de contact (sur ordinateur la liste se trouve à gauche)
+critères d'acceptation :
+	-être connecté au site
+
+
+Le bénévole/l'élève souhaite ajouter un contact :
+
+-le bénévole se rend sur la page de chat
+-lorsque le bénévole écrit dans la barre de recherche, des résultats apparaissent 
+-Le bénévole a trouvé la personne recherchée, un bouton est à côté de son prénom et nom
+-lorsque qu'il clique dessus l'utilisateur est ajouté à sa liste de contact
+
+critéres d'acceptation :
 	-L'utilisateur recherché doit exister dans la base de donnée 
--L'utilisateur a trouvé la personne recherché, un bouton est à côté de son prénom et nom
--lorsque je clique dessus l'utilisateur est ajouté à ma liste de contact
 
 
-L'utilisateur souhaite supprimer un contact :
--L'utilisateur se rend sur la page de chat
+Le bénévole/l'élève souhaite supprimer un contact :
+
+-Le bénévole se rend sur la page de chat
 -La liste de ses contacts apparaît
 -à côté de chaque contact se trouve une croix 
 -Lorsqu'il clique dessus un message apparaît pour lui demander s'il est sûr de vouloir supprimer le contact
+-le bénévole clique sur oui
 -alors le contact est supprimé de sa liste de contact
 
--critères d'acceptation :
+critères d'acceptation :
 	-valider l'opération en cliquant sur "oui"
 
 
-L'utilisateur souhaite retrouver une conversation avec un contact et envoyer un message:
+
+Le bénévole/l'élève souhaite retrouver une conversation avec un contact et envoyer un message:
 
 -l'utilisateur se rend sur la page de chat
 -la liste de ses contacts apparait 
 -lorsque l'utilisateur clique sur un de ses contacts la conversation avec celui-ci apparaît
 -alors l'utilisateur peut retrouver l'historique des messages, ainsi que l'horodatage, et peut envoyer des messages à celui-ci
 
-L'utilisateur souhaite accéder à son calendrier et voir ses tâches/rendez-vous :
 
--l'utilisateur se rend sur la page calendrier
--il retrouve un calendrier du mois
--lorsqu'il clique sur une date des informations apparaissent
--alors il est capable de voir l'heure du rendez-vous, le bénévole/l'eleve avec qui il a rendez-vous, la description de la tâche
+Le bénévole/l'élève souhaite voir le nombre de messages qu'il n'a pas lu :
 
-Le bénévole veut ajouter une tâche ou un rendez-vous à un élève :
-
--le bénévole se rend sur la page "gestionraire des tâches"
--il choisit tâche ou rendez-vous
-
--pour un rendez-vous le bénévole met une date et une heure
--prénom nom de l'élève
--description du rendez-vous
--critères d'acceptation :
-	-avoir l'élève dans ses contacts
-	-l'élève doit être libre à cette heure
-	-La date ne peut pas être une date déjà passée
-
--pour une tâche
--le bénévole met une date
--le nom et prénom de l'élève ciblé
--description de la tâche
--critères d'acceptation :
-	-avoir l'élève dans ses contacts
-
--lorsque la tâche ou le rendez-vous est enregistré, il apparaît sur le calendrier de l'élève et du bénévole.
-
-L'élève veut créer une tâche :
--l'élève se rend sur la page "gestion de tâches"
--Il crée un intitulé
--Une date 
--Une déscription
-
--critères d'acceptation :
-	-date valide 
-	-remplir tous les champs
-	-intitulé unique
+-le bénévole se connecte au site
+-Il arrive sur la page d'acceuil
+-Sur le lien qui méne au chat il peut voir un chiffre entre parenthése qui correspond au nombre de messages non lus
 
 
-Le bénévole veut modifier ou supprimer une tâche/ un rendez vous :
 
-pour modifier une tâche de son éléve:
--le bénévole se rend sur la page de calendrier
--il clique sur une date
--apparaît alors la liste de toutes les tâches de ses élèves
--il clique sur une tâche
--il clique sur le bouton modifier
--il peut ainsi modifier l'intitulé, la date et la description de la tâche
+Partie sur le tableau de bord (acceuil):
 
-critères d'acceptation :
-	-date valide
-	-tous les champs remplis
 
-Le bénévole veut modifier la progression de la tâche de son élève :
+Le bénévole/l'élève souhaite voir le récapitulatif de ses prochains événements :
+-Se rendre sur la page "acceuil"
+-la liste des évènements apparaît alors 
 
--le benevole se rend sur la page calendrier
--il clique sur une date
--la liste des tâches apparaît pour chacun de ses élèves
--il clique sur une tâche
--il modifie la progression de celle-ci en lui assignant un pourcentage
-
-critères d'acceptation :
-	-le pourcentage ne peut pas être inférieur à l'ancien
-	-maximum 100%
--alors le pourcentage de la tâche est changée et visible par l'élève comme le bénévole dans le calendrier
-
-(faire en sorte que l'eleve et le benevole puisse voir l'avancé d'un projet, pouvoir faire en sorte que le projet soit validé par l'eleve ou le benevole, créer 2 bonhommes dans les 
-cas d'utilisation qui représentent un eleve et un benevole)
 
 
 
