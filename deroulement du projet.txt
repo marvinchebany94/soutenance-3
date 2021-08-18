@@ -1,8 +1,14 @@
-début du projet 24/07/21:
+à faire :
+-améliorer les cas d'utilisations, mettre l'accés aux différents liens dans chaque page  fait
+-ajouter une date de dérnière modification aux tâches  fait
+-implémenter un bouton pour reporter un rendez-vous pour un élève
+-avancer sur les kanban (mes idées dans backlog, et les idées d'openclassroom dans analyze)
+-vérifier les liens des wireframes
+-supprimer/modifier rdv bénévole
 
-1. premiere partie du projet :
-	
-	-Faire un diagramme de cas d'usage pour chaque fonctionnalités majeures pour chaque page (connexion, chat, calendrier, gestionnaire de tâches, tableau de bord)
-
-	-J'utiliserai edrawmax pour faire le diagramme
-		
+-ajout des dates de dernieres modifs sur la page d'accueil
+-ajouter la date de derniere modif sur les pages  de tâches
+-ajouter la wireframe quand on veut supprimer un contact
+-ajouter le fait de reporter un rendez-vous pour l'élève
+-création d'un titre "liste des events reportés"
+-création d'un pop up qui annonce au bénévole qu'un rdv doit être reporté
