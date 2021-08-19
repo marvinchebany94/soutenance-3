@@ -12,3 +12,5 @@
 -ajouter le fait de reporter un rendez-vous pour l'élève
 -création d'un titre "liste des events reportés"
 -création d'un pop up qui annonce au bénévole qu'un rdv doit être reporté
+-création d'une wireframe pour retrouver son mdp sur mobile
+-wireframe de création du nouveau mdp

@@ -1,0 +1,174 @@
+Page de création de compte :
+
+bénévole/élève veut créer un compte :
+-cliquer sur le lien "se créer un compte"
+-remplir le formulaire : email, mot de passe, confirmation du mot de passe, nom, prénom, date de naissance et photo de profil non obligatoire
+-cliquer sur le bouton
+-un mail de confirmation s'envoit, il suffit de cliquer sur le lien pour valider son compte
+critères d'acceptation :
+-email valide et unique 
+-remplir toutes les cases du formulaire
+-date de naissance valide
+-mot de passe de 5 caractères minimum
+-photo au format jpg de 2 mo maximum
+-cliquer sur le lien envoyé par mail pour valider le compte
+
+Page de connexion :
+
+bénévole/élève veut se connecter au site:
+-se rendre sur la page de connexion
+-remplir le formulaire
+-cliquer sur le bouton
+-une fois connecté l'utilisateur est renvoyé sur la page d'accueil
+critères d'acceptation:
+-avoir un compte valide
+-remplir les 2 champs
+
+bénévole/élève souhaite rester connecté même après avoir quitté le site :
+-après avoir rempli le formulaire de connexion cocher la case "se souvenir de moi"
+-l'utilisateur arrive sur la page d'accueil et sa connexion continuera même après avoir quitté le site
+
+bénévole/élève souhaite voir sa liste des prochains rendez-vous :
+-se rendre sur la page d'accueil
+-la liste des rendez-vous se trouve sous le titre "liste de vos prochains événements"
+
+bénévole/élève souhaite voir les tâches qu'il a créé pour lui même :
+-se rendre sur la page d'accueil
+-la liste des tâches personnelles se trouve sous le titre "liste des tâches créées par toi même"
+
+bénévole/élève souhaite modifier/supprimer ses propres tâches :
+-se rendre sur la page d'accueil
+-se rendre sous "liste des tâches créées par toi même"
+-choisir une tâche puis cliquer sur son lien "accéder à la tâche"
+-l'utilisateur voit une page avec l'intitulé, la date de création, la dérnière date de modification, la description puis la progression de la tâche
+-il y a 2 boutons : modifier / supprimer
+pour modifier :
+-cliquer sur le bouton modifier 
+-possibilité de modifier l'intitulé, la description et la progression
+-cliquer sur le bouton pour valider l'opération
+-la tâche a bien été modifié
+critères d'acceptation :
+-intitulé unique et obligatoire
+pour supprimer:
+-cliquer sur supprimer
+-un pop apparaît pour demander de valider l'opration
+-cliquer sur oui pour valider
+-le tâche est supprimée
+critères d'acceptation :
+-valider l'opration
+
+l'élève souhaite reporter un rendez-vous:
+-se rendre à l'accueil
+-choisir un rendez-vous
+-cliquer sur le lien "accéder au rendez-vous"
+-cliquer sur le lien "tu n'es pas disponible ? reporte le rendez-vous"
+-un pop up apparaît
+-valider l'opration en cliquant sur oui 
+-le rendez-vous a été reporté et apparaît sous le titre "liste des événements reportés" dans la page d'accueil
+critères d'acceptation :
+-valider l'opération
+
+bénévole souhaite modifier/supprimer un rendez-vous:
+-se rendre sur la page d'accueil
+-choisir un rendez-vous
+-cliquer sur le lien pour accéder à celui-ci
+pour modifier :
+-cliquer sur modifier
+-possibilité de modifier le sujet, la date/l'heure ou la description
+-cliquer sur le bouton
+-un pop up demande de valider l'opération
+-le rendez-vous a bien été modifié
+critères d'acceptation :
+-remplir tout le formulaire
+-date valide
+-bénévole et élève libres pour la nouvelle date
+-valider l'opration en cliquant sur oui
+
+bénévole souhaite modifier la progression d'une tâche d'un de ses élèves:
+-se rendre sur la page d'accueil
+-aller sous le titre "liste des tâches de tes élèves"
+-choisir une tâche
+-cliquer sur le lien pour y accéder
+-cliquer sur modifier
+-modifier la progression
+-pop up apparaît
+-cliquer sur oui pour valider l'opération
+critères d'acceptation :
+-progression plus élevée que l'ancienne
+-valider la modification en cliquant sur oui
+
+bénévole/élève souhaite ajouter un contact :
+-se rendre sur la page de chat
+-cliquer sur la barre de recherche
+-entrer un prénom/nom
+-la personne est trouvée
+-cliquer sur le bouton à droite de son nom
+-la personne est ajoutée à vos contacts
+critères d'acceptation :
+-la personne recherchée doit être dans la base de donnée du site
+
+bénévole/élève souhaite contacter un contact:
+-se rendre sur la page de chat
+-la liste des contacts apparaît
+-cliquer sur un contact
+-la conversation sort
+-cliquer sur envoyer un message et entrer un message
+-le message est envoyée
+pour envoyer une image:
+-cliquer sur le bouton "joindre un fichier"
+-choisir une photo ou fichier pdf
+-la photo a été envoyé 
+critères d'acceptation:
+-photo au format jpg
+-fichier pdf accepté
+
+bénévole/élève souhaite supprimer un contact:
+-se rendre sur la page de chat
+-la liste des contacts apparaît
+-à côté de chaque contact se trouve une croix rouge
+-cliquer dessus
+-un pop up apparaît pour valider l'opération
+-cliquer oui
+-le contact a été supprimé
+critères d'acceptation :
+-valider l'opration en cliquant sur oui
+
+bénévole/élève souhaite voir s'il a un rendez-vous à une date précise :
+-se rendre sur le calendrier
+-choisir une date
+-cliquer sur "ok"
+-s'il y a un rendez-vous, celui-ci apparaîtra avec son sujet, sa date/heure, sa description, l'élève/bénévole avec qui l'utilisateur a le rendez-vous
+	bouton modifier/supprimer pour le béénvole, et possibilité de reporter pour l'élève.
+
+bénévole/élève souhaite créer une tâche pour lui même:
+-se rendre sur la page gestion de tâches
+-remplir le formulaire : un intitulé et sa description
+-cliquer sur le bouton pour valider
+-la tâche a bien été créé et apparaît sur la page d'accueil
+critères d'acceptation:
+-ne pas avoir une autre tâche avec le même intitulé
+
+bénévole souhaite créer une tâche pour un élève :
+-se rendre sur la page gestion de tâches
+-selectionner "tâche pour un élève"
+-remplir le formulaire : intitulé, description, et choisir l'élève dans la liste donnée
+-cliquer sur le bouton
+-la tâche a bien été créé et apparaîtra sur l'accueil du bénévole et de l'élève
+critères d'acceptation :
+-l'élève ne doit pas avoir de tâche avec le même intitulé
+
+bénévole souhaite créer un rendez-vous :
+-se rendre sur gestion de tâche
+-selectionner créer un rendez-vous
+-remplir le formulaire : sujet, date/heure, description, choisir l'élève dans la liste
+-cliquer sur le bouton
+-le rendez-vous est créé, il apparaît sur la page du bénévole et de l'élève en question à l'accueil
+critères d'acceptation :
+-bénévole/élève libres à la date et l'heure du rendez-vous
+
+
+
+
+
+
+
