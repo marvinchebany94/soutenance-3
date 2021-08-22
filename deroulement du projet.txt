@@ -16,3 +16,5 @@
 -création d'une wireframe pour retrouver son mdp sur mobile
 -wireframe de création du nouveau mdp
 -wireframe tâche élève donnée par un bénévole
+
+-continuer la page de gestion de tâche de l'élève

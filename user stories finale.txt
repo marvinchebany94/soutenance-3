@@ -28,6 +28,22 @@ bénévole/élève souhaite rester connecté même après avoir quitté le site 
 -après avoir rempli le formulaire de connexion cocher la case "se souvenir de moi"
 -l'utilisateur arrive sur la page d'accueil et sa connexion continuera même après avoir quitté le site
 
+bénévole/élève souhaite changer son mot de passe car il l'a perdu :
+-se rendre sur la page d'accueil
+-cliquer sur mot de passe oublié
+-entrer son email dans le formulaire
+-cliquer sur le bouton "recevoir le mail de création"
+-se rendre dans la boite mail
+-cliquer sur le lien
+-remplir les 2 champs en entrant 2 fois le même mot de passe
+-cliquer sur le bouton pour valider
+-le mot de passe a bien été modifié
+critères d'acceptation :
+-email valide et existant dans la base de donnée du site
+-remplir les 2 champs avec un mot de passe similaire 
+-mettre un mot de passe de minimum 5 caractères 
+
+
 bénévole/élève souhaite voir sa liste des prochains rendez-vous :
 -se rendre sur la page d'accueil
 -la liste des rendez-vous se trouve sous le titre "liste de vos prochains événements"
@@ -166,7 +182,15 @@ bénévole souhaite créer un rendez-vous :
 critères d'acceptation :
 -bénévole/élève libres à la date et l'heure du rendez-vous
 
-
+l'élève souhaite reporter un rendez-vous:
+-se rendre sur la page d'accueil
+-choisir un rendez-vous
+-cliquer sur acceder au rendez-vous
+-cliquer sur le lien "tu n'es pas disponible? reporte le rendez-vous"
+-valider l'opération en cliquant sur oui sur le pop up
+-le rendez-vous est reporté, il apparaît désormais dans la liste des rendez-vous reportés
+critère d'acceptation :
+-valider l'opération en cliquant sur oui
 
 
 
