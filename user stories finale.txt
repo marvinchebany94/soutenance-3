@@ -22,7 +22,7 @@ bénévole/élève veut se connecter au site:
 -une fois connecté l'utilisateur est renvoyé sur la page d'accueil
 critères d'acceptation:
 -avoir un compte valide
--remplir les 2 champs
+-remplir les 2 champs email et mot de passe
 
 bénévole/élève souhaite rester connecté même après avoir quitté le site :
 -après avoir rempli le formulaire de connexion cocher la case "se souvenir de moi"
