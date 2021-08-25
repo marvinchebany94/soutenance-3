@@ -18,7 +18,7 @@ Page de connexion :
 bénévole/élève veut se connecter au site:
 -se rendre sur la page de connexion
 -remplir le formulaire
--cliquer sur le bouton
+-cliquer sur le bouton "se connecter"
 -une fois connecté l'utilisateur est renvoyé sur la page d'accueil
 critères d'acceptation:
 -avoir un compte valide
@@ -36,7 +36,7 @@ bénévole/élève souhaite changer son mot de passe car il l'a perdu :
 -se rendre dans la boite mail
 -cliquer sur le lien
 -remplir les 2 champs en entrant 2 fois le même mot de passe
--cliquer sur le bouton pour valider
+-cliquer sur le bouton "valider le mot de passe"
 -le mot de passe a bien été modifié
 critères d'acceptation :
 -email valide et existant dans la base de donnée du site
@@ -61,7 +61,7 @@ bénévole/élève souhaite modifier/supprimer ses propres tâches :
 pour modifier :
 -cliquer sur le bouton modifier 
 -possibilité de modifier l'intitulé, la description et la progression
--cliquer sur le bouton pour valider l'opération
+-cliquer sur le bouton "enregistrer la modification" pour valider l'opération
 -la tâche a bien été modifié
 critères d'acceptation :
 -intitulé unique et obligatoire
@@ -87,11 +87,11 @@ critères d'acceptation :
 bénévole souhaite modifier/supprimer un rendez-vous:
 -se rendre sur la page d'accueil
 -choisir un rendez-vous
--cliquer sur le lien pour accéder à celui-ci
+-cliquer sur le lien "accéder au rendez-vous" pour accéder à celui-ci
 pour modifier :
 -cliquer sur modifier
 -possibilité de modifier le sujet, la date/l'heure ou la description
--cliquer sur le bouton
+-cliquer sur le bouton  "enregistrer la modification"
 -un pop up demande de valider l'opération
 -le rendez-vous a bien été modifié
 critères d'acceptation :
@@ -99,6 +99,13 @@ critères d'acceptation :
 -date valide
 -bénévole et élève libres pour la nouvelle date
 -valider l'opration en cliquant sur oui
+Pour supprimer :
+-cliquer sur le bouton "supprimer"
+-un pop up apparaît pour valider l'opération
+-cliquer sur oui
+-le rendez-vous a bien été supprimé
+critère d'acceptation :
+-valider l'opération en cliquant sur oui
 
 bénévole souhaite modifier la progression d'une tâche d'un de ses élèves:
 -se rendre sur la page d'accueil
@@ -118,7 +125,7 @@ bénévole/élève souhaite ajouter un contact :
 -cliquer sur la barre de recherche
 -entrer un prénom/nom
 -la personne est trouvée
--cliquer sur le bouton à droite de son nom
+-cliquer sur la croix grise à droite de son nom
 -la personne est ajoutée à vos contacts
 critères d'acceptation :
 -la personne recherchée doit être dans la base de donnée du site
@@ -153,13 +160,13 @@ bénévole/élève souhaite voir s'il a un rendez-vous à une date précise :
 -se rendre sur le calendrier
 -choisir une date
 -cliquer sur "ok"
--s'il y a un rendez-vous, celui-ci apparaîtra avec son sujet, sa date/heure, sa description, l'élève/bénévole avec qui l'utilisateur a le rendez-vous
-	bouton modifier/supprimer pour le béénvole, et possibilité de reporter pour l'élève.
+-s'il y a un ou plusieurs rendez-vous, ceux-ci apparaîtront avec leur sujet, leur date/heure, leur description, l'élève/bénévole avec qui l'utilisateur a le rendez-vous,
+	bouton modifier/supprimer pour le bénénvole et possibilité de reporter pour l'élève.
 
 bénévole/élève souhaite créer une tâche pour lui même:
 -se rendre sur la page gestion de tâches
 -remplir le formulaire : un intitulé et sa description
--cliquer sur le bouton pour valider
+-cliquer sur le bouton "enregistrer la tâche" pour valider
 -la tâche a bien été créé et apparaît sur la page d'accueil
 critères d'acceptation:
 -ne pas avoir une autre tâche avec le même intitulé
@@ -168,7 +175,7 @@ bénévole souhaite créer une tâche pour un élève :
 -se rendre sur la page gestion de tâches
 -selectionner "tâche pour un élève"
 -remplir le formulaire : intitulé, description, et choisir l'élève dans la liste donnée
--cliquer sur le bouton
+-cliquer sur le bouton "enregistrer la tâche"
 -la tâche a bien été créé et apparaîtra sur l'accueil du bénévole et de l'élève
 critères d'acceptation :
 -l'élève ne doit pas avoir de tâche avec le même intitulé
@@ -177,7 +184,7 @@ bénévole souhaite créer un rendez-vous :
 -se rendre sur gestion de tâche
 -selectionner créer un rendez-vous
 -remplir le formulaire : sujet, date/heure, description, choisir l'élève dans la liste
--cliquer sur le bouton
+-cliquer sur le bouton "créer le rendez-vous"
 -le rendez-vous est créé, il apparaît sur la page du bénévole et de l'élève en question à l'accueil
 critères d'acceptation :
 -bénévole/élève libres à la date et l'heure du rendez-vous
